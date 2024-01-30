@@ -1,11 +1,48 @@
+/* reset.css */
+/* 기본 style 서식을 초기화 --> FE 개발자가 커스터마이징 가능 */
 @import "reset.css";
 
+/* font */
+/* 웹폰트 사용 방법 1 */
+/* font-face -> font-family */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 방법 2 */
+/* url import */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
+/* css 변수 */
 :root {
     --main-bg-color: rgb(230, 230, 230);
+    --font-color: #3e3e3e;
+    --highlight-text: tomato;
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-bg-color); /* var(변수명) */
+}
+
+h4, p {
+    font-family: 'GmarketSansMedium';
+    color: var(--font-color);
+    margin: 1rem;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+span {
+    color: var(--highlight-text);
 }
