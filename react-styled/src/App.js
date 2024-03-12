@@ -74,8 +74,8 @@ function App() {
       <PrimaryButton primary>Normal</PrimaryButton>
 
       {/* 정원비 */}
-      <h4>1조 스파이</h4>
-      <p>안녕하세요</p>
+      <h4>이젠 1조 정직원!</h4>
+      <p>안뇽</p>
 
       {/* 하기성 */}
       <h4></h4>
