@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>팀프로젝트 git 연습</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 이록원 -->
-    <h4>최강 1조</h4>
-    <p>우리팀 짱짱맨</p>
-    
-    <!-- 오지수  -->
-    <h4>hello</h4>
-    <p>팀프로젝트 화이팅!!!</p>
-    
-    <!-- 조성윤  -->
-    <h4>조성윤</h4>
-    <p>#2</p>
-    
-    <!-- 강민기 -->
-    <h4>Hello</h4>
-    <p>안녕하세요</p>
-    
-    <!-- 하지희 -->
-    <h4></h4>
-    <p></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>팀프로젝트 git 연습 + react w/ styled-components</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <!-- 정원비 -->
-    <h4>1조 스파이</h4>
-    <p>안녕하세요</p>
-</body>
+  <body>
+    
+  </body>
+
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <!-- styled-components -->
+  <script
+    crossorigin
+    src="//unpkg.com/styled-components/dist/styled-components.min.js"
+  ></script>
+  
+  <!-- Babel; 코드 변환해줌. 우리가 JSX로 적은 코드를 브라우저가 이해할 수 있는 형태로 바꿔줌 -->
+  <!-- Babel standalone을 통해 다운로드 -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script>
+    const Component = window.styled.div`
+      background-color: green;
+    `;
+  </script>
+  <!-- <script type="text/babel">
+    // import styled from 'styled-components';
+
+    const root = document.getElementById("root");
+
+    const simpleBtn = styled.button`
+        backgroud-color: red;
+    `;
+
+    function App() {
+      return (
+        <div>
+            {/* 이록원 */}
+            <h4>최강 1조</h4>
+            <p>우리팀 짱짱맨</p>
+
+            {/* 오지수 */}
+            <h4>hello</h4>
+            <p>팀프로젝트 화이팅!!!</p>
+            <simpleBtn>hello world</simpleBtn>
+
+            {/* 강민기 */}
+            <h4>Hello</h4>
+            <p>안녕하세요</p>
+
+            {/* 권지호 */}
+            <h4></h4>
+            <p></p>
+
+            {/* 하기성 */}
+            <h4></h4>
+            <p></p>
+
+            {/* 정원비 */}
+            <h4>1조 스파이</h4>
+            <p>안녕하세요</p>
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, root);
+  </script> -->
 </html>
