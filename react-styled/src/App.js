@@ -10,7 +10,6 @@ import styled from "styled-components";
 //     }
 // `;
 
-
 const SimpleButton = styled.button`
   background-color: var(--orange);
 `;
@@ -66,6 +65,7 @@ function App() {
       {/* 오지수 */}
       <h4>hello</h4>
       <p>팀프로젝트 화이팅!!!</p>
+      <p>안녕하세요</p>
       <SimpleButton>SimpleButton</SimpleButton>
       <LargeButton>SimpleButton</LargeButton>
       <ReactBtn>ReactBtn</ReactBtn>
